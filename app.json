@@ -1,0 +1,59 @@
+{
+  "name": "GHOST-OFFICIAL-V1",
+  "description": "WhatsApp Bot with QR and Pairing Code support - RAK Realm Ecosystem",
+  "repository": "https://github.com/RAK-Realm/ghost-official-v1",
+  "logo": "https://i.ibb.co/0jQ6P8T/ghost-logo.png",
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "automation",
+    "ghost-official",
+    "rak-realm",
+    "baileys",
+    "nodejs"
+  ],
+  "env": {
+    "SESSION_TYPE": {
+      "description": "Type of session storage (local or cloud)",
+      "value": "local",
+      "required": false
+    },
+    "MAX_SESSIONS": {
+      "description": "Maximum number of concurrent sessions",
+      "value": "10",
+      "required": false
+    },
+    "SESSION_TIMEOUT": {
+      "description": "Session timeout in milliseconds",
+      "value": "1800000",
+      "required": false
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "free"
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ],
+  "addons": [
+    {
+      "plan": "heroku-redis:hobby-dev",
+      "as": "REDIS"
+    }
+  ],
+  "environments": {
+    "test": {
+      "scripts": {
+        "test": "npm test"
+      }
+    }
+  },
+  "success_url": "/",
+  "website": "https://rak-realm.github.io",
+  "stack": "heroku-22"
+}
