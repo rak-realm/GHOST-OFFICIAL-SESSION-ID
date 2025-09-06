@@ -1,35 +1,19 @@
-# 🚀 Malvin-Session-Generator
+# 🚀 GHOST-OFFICIAL-V1 WhatsApp Bot
 
-## 📊 Visitor Counter
+## 📱 RAK Realm Automation Ecosystem
 
-<p align="center">
-  <img src="https://profile-counter.glitch.me/XdKing2/count.svg" alt="visitor counter"/>
-</p>
+A powerful WhatsApp bot system with multiple pairing options for the GHOST-OFFICIAL-V1 bot under RAK Realm branding.
 
 ---
 
-## 💡 Fork This Project
+## ✨ Features
 
-[![Fork Repo](https://img.shields.io/badge/FORK-REPO-black?style=for-the-badge&logo=github)](https://github.com/XdKing2/malvin-pair/fork)
-
-Generate session IDs for WhatsApp bots using [`@whiskeysockets/baileys`](https://github.com/whiskeysockets/baileys), with secure **MEGA** cloud storage and a fast web QR login.
-
-> ⚠️ This is the **same code** used on my live site:  
-> 🔗 [Session Generator Website](https://new-session-2ag9.onrender.com/)  
-> 💬 Don't ask for more — just **fork**, **star**, **edit** ,and **deploy**!
-
----
-
-## 🧩 Features
-
-- 🔐 Generates sessions for **any Baileys bot**
-- ☁️ Stores sessions securely with **MEGA**
-- 📱 Web-based **QR Pairing & Pair Pairing**
-- 🚀 One-click deploy to:
-  - Heroku
-  - Render
-  - Koyeb
-  - Self-hosting platforms
+- **Dual Pairing Methods**: QR Code & Pairing Code support
+- **Session Management**: Automatic cleanup and persistence
+- **Modern UI**: Professional RAK Realm branding
+- **Error Handling**: Robust error handling and validation
+- **Mobile Responsive**: Works on all devices
+- **Real-time Updates**: Live connection status
 
 ---
 
@@ -37,7 +21,7 @@ Generate session IDs for WhatsApp bots using [`@whiskeysockets/baileys`](https:/
 
 | Platform | Deploy |
 |---------|--------|
-| 🟣 Heroku | [![Deploy to Heroku](https://img.shields.io/badge/DEPLOY-HEROKU-purple?style=for-the-badge&logo=heroku)](https://dashboard.heroku.com/new?template=https://github.com/XdKing2/malvin-pair) |
+| 🟣 Heroku | [![Deploy to Heroku](https://img.shields.io/badge/DEPLOY-HEROKU-purple?style=for-the-badge&logo=heroku)](https://dashboard.heroku.com/new?template=https://github.com/rak-realm/GHOST-OFFICIAL-SESSION-ID) |
 | 🔵 Render | [![Deploy to Render](https://img.shields.io/badge/DEPLOY-RENDER-blue?style=for-the-badge&logo=render)](https://dashboard.render.com/) |
 | ⚫ Koyeb | [![Deploy to Koyeb](https://img.shields.io/badge/DEPLOY-KOYEB-black?style=for-the-badge&logo=koyeb)](https://app.koyeb.com/) |
 
@@ -50,16 +34,9 @@ Generate session IDs for WhatsApp bots using [`@whiskeysockets/baileys`](https:/
 
 ---
 
-## 👑 Owner
+## 🛠️ Installation
 
-<p align="center">
-  <a href="https://github.com/XdKing2">
-    <img src="https://github.com/XdKing2.png" width="200" height="200" alt="Malvin King"/>
-  </a>
-</p>
-
-📬 [`Contact on WhatsApp`](https://wa.me/263780166288)
-
----
-
-
+1. **Clone or download the project files**
+```bash
+mkdir ghost-official-v1
+cd ghost-official-v1
